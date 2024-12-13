@@ -4,6 +4,6 @@ services:
     build: .
     container_name: observe-siem-demo
     environment:
-      OBSERVE_ENDPOINT: "https://190558161486.collect.observe-staging.com/v1/http"
-      AUTH_TOKEN: "ds1oHg1vndZWLugI5UOa:OYVKbt4qLEe0bgVx0-d44t5UtAl5Jnxz"
+      OBSERVE_ENDPOINT: "https://OBSERVE_ENDPOINT"
+      AUTH_TOKEN: "OBSERVE_TOKEN"
     restart: unless-stopped
